@@ -85,6 +85,7 @@ header nav ul li a:hover {
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 3px solid black;
 }
 
 .hero-cta h2 {
@@ -146,7 +147,7 @@ header nav ul li a:hover {
 .container-2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0%;
   background-color: var(--primary-color);
 }
@@ -207,7 +208,7 @@ header nav ul li a:hover {
 
 .container-3 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0%;
   background-color: var(--primary-color);
@@ -312,7 +313,7 @@ header nav ul li a:hover {
   margin-left: 70%;
   margin-top: 2%;
 }
-
+ 
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
@@ -344,7 +345,28 @@ header nav ul li a:hover {
   }
 
   .hero-cta h2 {
-    margin-left: 8%;
+    margin-left: 10%;
+  }
+  .box-1 img {
+    width: 300px;
+    height: 300px;
+    margin-left: 9%;
+  }
+
+  .container-1 div { 
+    border: none;
+  }
+
+  .container-2 div {
+    border: none;
+  }
+
+  .container-3 div {
+    border: none;
+  }
+
+  .container-4 div {
+    border: none;
   }
 }
 
