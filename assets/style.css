@@ -397,15 +397,16 @@ header nav ul li a:hover {
    }
 /*  */
 
-   .box-1 img {
-     margin-left: 10%;
+   .container-1 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
    }
    .container-2 {
      display: flex;
      flex-direction: column;
-     justify-content: space-between;
-     align-content: center;
-     text-align: center;
+     align-items: center;
+     justify-content: center;
    }
 
    .container-2 h2 {
@@ -433,7 +434,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 310px;
+    height: 315px;
   }
 
   .footer-cta {
@@ -451,10 +452,10 @@ header nav ul li a:hover {
   }
 
   .box-9 img {
-    width: 150px;
+    width: 160px;
     height: 150px;
     padding: 0;
-    margin: 0 0 1% 5px;
+    margin: 0 0 3% 5px;
 
   }
 
