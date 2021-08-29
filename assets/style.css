@@ -401,14 +401,27 @@ header nav ul li a:hover {
      display: flex;
      align-items: center;
      justify-content: center;
-   }
-   .container-2 {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+     text-align: center;
    }
 
+   .container-1 h2 {
+     text-align: center;
+   }
+
+
+   .container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-top: 2px solid black;
+    align-content: center;
+    text-align: center;
+   }
+
+   .container-2 h2 {
+     text-align: center;
+   }
+/* 
    .container-2 h2 {
      text-align: center;
    }
@@ -416,7 +429,7 @@ header nav ul li a:hover {
    .box-4 {
      margin-right: 8%;
    }
-
+/*  */
    .container-3 {
     display: flex;
     flex-wrap: wrap;
