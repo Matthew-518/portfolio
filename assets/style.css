@@ -11,7 +11,11 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
+
 
 header {
   padding: 20px 35px;
@@ -315,6 +319,7 @@ header nav ul li a:hover {
 }
  
 @media screen and (max-width: 980px) {
+  
   header {
     padding-bottom: 0;
     justify-content: center;
