@@ -320,6 +320,20 @@ header nav ul li a:hover {
 }
 
 
+@media screen and (max-width: 1024px) {
+  .box-1 img {
+    margin-left: 0%;
+  }
+
+  .hero-cta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+  }
+}
+
 
 
   /* MEDIA QUERY SECTION */
