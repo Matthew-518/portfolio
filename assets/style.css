@@ -147,6 +147,7 @@ header nav ul li a:hover {
 
 .box-2 p {
   color: white;
+  font-size: 20px;
 }
 
 .container-2 {
@@ -399,7 +400,7 @@ header nav ul li a:hover {
 
 
 
-
+/*MEDIA QUERY MAX-WIDTH 768 */
 @media  screen and (max-width: 768px) {
   .hero-cta {
     display: flex;
